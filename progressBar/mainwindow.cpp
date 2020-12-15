@@ -44,9 +44,11 @@ void MainWindow::on_startOverButton_clicked()
     ui->horizontalSlider->setDisabled(false);
     ui->pushButton->setDisabled(false);
     ui->startOverButton->setDisabled(true);
-    ui->progressBar->setValue(1);
-    ui->horizontalSlider->setValue(1);
     ui->autoLabel->setText("");
+    ui->progressBar->setValue(1);
+    //ui->horizontalSlider->setValue(1);
+    //ui->dial->setValue(1);
+
 }
 
 void MainWindow::on_progressBar_valueChanged(int value)
